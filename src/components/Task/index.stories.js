@@ -12,9 +12,9 @@ export const Default = Template.bind({});
 Default.args = {
   task: {
     id: 1,
-    title: 'Hello World',
+    title: 'Test Task',
     state: 'TASK_INBOX',
-    updatedAt: new Date(),
+    updatedAt: new Date('2022-06-10'),
   },
 };
 
